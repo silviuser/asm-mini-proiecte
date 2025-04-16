@@ -1,6 +1,3 @@
-from pathlib import Path
-
-readme_content = """
 # Mini-Proiecte în Asamblare (ASM) pentru x86 - MASM/TASM
 
 Acest repository conține o colecție de mini-proiecte scrise în limbaj de asamblare pentru arhitectura x86 (MASM/TASM). Programele au scop educativ și acoperă concepte precum manipularea șirurilor, interacțiunea cu utilizatorul prin tastatură, prelucrarea datei și orei, operarea pe biți și controlul fluxului execuției.
@@ -21,9 +18,3 @@ Acest repository conține o colecție de mini-proiecte scrise în limbaj de asam
 - MASM sau TASM (poți folosi DOSBox pentru rulare)
 - Sistem compatibil x86 (sau emulator)
 
-## 🚀 Rulare (exemplu general)
-
-```bash
-tasm nume_fisier.asm
-tlink nume_fisier.obj
-nume_fisier.exe
